@@ -50,3 +50,9 @@ footer {
     text-shadow: 6px 7px 4px #000000;
     font-style: bold;
 }
+
+a {
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
