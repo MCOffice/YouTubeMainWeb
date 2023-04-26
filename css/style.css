@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1073281295456665641/1096180366152323102/ShapesBackground.gif.e77deac2da454ff7c9b2fd4e180429cc.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Noto Serif Thai', serif;
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
+
+header {
+    font-family: 'Noto Serif Thai', serif;
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
+
+div {
+    font-family: 'Noto Serif Thai', serif;
+    color: aliceblue;
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
+
+footer {
+    font-family: 'Noto Serif Thai', serif;
+    color: aliceblue;
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
+
+h2 {
+    color: aliceblue;
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 7px 4px #000000;
+    font-style: bold;
+}
