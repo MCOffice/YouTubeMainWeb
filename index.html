@@ -68,7 +68,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <!-- <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
           <div class="d-flex flex-column text-white text-shadow-1">
             <img src="https://cdn.discordapp.com/attachments/834709741178585088/1095272764283297872/100039866.jpg" alt="">
@@ -92,7 +92,7 @@
                 <a href="#" class="btn btn-primary btn-lg fw-bold">กดโหลด</a>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -133,6 +133,51 @@
   <!-- End Discord -->
 
   <i class="fa-brands fa-discord"></i>
+
+  <!-- Off F12 -->
+  <script language="JavaScript">
+      
+    window.onload = function () {
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function (e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    }
+          //edit: removed ";" from last "}" because of javascript error
+  </script>
+
+   <!-- End Off F12 -->
 
 </body>
 </html>
