@@ -16,12 +16,14 @@ body{
 h1 {
     font-family: 'Noto Serif Thai', serif;
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
 header {
     font-family: 'Noto Serif Thai', serif;
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
@@ -29,6 +31,7 @@ div {
     font-family: 'Noto Serif Thai', serif;
     color: aliceblue;
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
@@ -36,23 +39,31 @@ footer {
     font-family: 'Noto Serif Thai', serif;
     color: aliceblue;
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
 h2 {
     color: aliceblue;
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
 footer {
     color: rgb(255, 255, 255);
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
 }
 
 a {
     color: rgb(255, 255, 255);
     text-shadow: 6px 7px 4px #000000;
+    font-weight: bold;
     font-style: bold;
+}
+
+h6 {
+    font-weight: bold;
 }
